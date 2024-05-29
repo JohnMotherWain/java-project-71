@@ -10,7 +10,7 @@ import java.util.concurrent.Callable;
 public class App implements Callable<Integer> {
     @CommandLine.Parameters(index = "0", description = "path to first file")
     private String filepath1;
-    @CommandLine.Parameters(index = "0", description = "path to second file")
+    @CommandLine.Parameters(index = "1", description = "path to second file")
     private String filepath2;
     @CommandLine.Option(names = {"-f", "--format"}, description = "output format [default: stylish]")
     private String format = "stylish";
