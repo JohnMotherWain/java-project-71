@@ -12,7 +12,7 @@ public class App implements Callable<Integer> {
     private String filepath1;
     @CommandLine.Parameters(index = "0", description = "path to second file")
     private String filepath2;
-    @CommandLine.Option(names = {"-f", "--format"}, defaultValue = "stylish", description = "output format [default: stylish]")
+    @CommandLine.Option(names = {"-f", "--format"}, description = "output format [default: stylish]")
     private String format = "stylish";
     @Override
     public Integer call() throws Exception {
