@@ -16,8 +16,8 @@ public class App implements Callable<Integer> {
     private String format = "stylish";
     @Override
     public Integer call() throws Exception {
-        System.out.println("Hello World!");
-        Differ.generate(filepath1, filepath2);
+        //System.out.println("Hello World!");
+        System.out.println(Differ.generate(filepath1, filepath2));
         return 0;
     }
     public static void main(String... args) {
