@@ -1,5 +1,5 @@
 # java-package
-[![Java CI](https://github.com/JohnMotherWain/java-project-71/actions/workflows/Java%20CI/badge.svg)
+![Java CI](https://github.com/hexlet-boilerplates/java-package/workflows/Java%20CI/badge.svg)
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/JohnMotherWain/java-project-71/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/JohnMotherWain/java-project-71/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/bc953fb0ab378995dab3/maintainability)](https://codeclimate.com/github/JohnMotherWain/java-project-71/java-package/maintainability)
